@@ -1,0 +1,56 @@
+.app-container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    width: 100vw;    
+    height: 100vh;           
+    background-color: #1e1e1e; /
+  }
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(190, 180, 180);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .card-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-address {
+    font-size: 14px;
+    color: rgb(26, 23, 23);
+  }
+  
+  .card-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: rgb(49, 33, 33);
+  }
+  
+  .card-score {
+    background: #d4edda;
+    color: #155724;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
