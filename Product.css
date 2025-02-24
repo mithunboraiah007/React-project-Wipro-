@@ -1,0 +1,87 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Container */
+  .container {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .breadcrumb {
+    color: gray;
+    font-size: 14px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Button Group */
+  .button-group button {
+    padding: 8px 16px;
+    margin-left: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .active-button {
+    background-color: blue;
+    color: white;
+  }
+  
+  .inactive-button {
+    background-color: lightgray;
+  }
+  
+  .all-button {
+    background-color: white;
+    border: 1px solid gray;
+  }
+  
+  /* Table Styling */
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+  }
+  
+  .product-table th, .product-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .product-table th {
+    background: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  /* Tags */
+  .tag {
+    display: inline-block;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+  
